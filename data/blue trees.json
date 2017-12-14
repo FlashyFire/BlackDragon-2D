@@ -1,0 +1,12 @@
+{ "columns":7,
+ "image":"images\/blue trees.png",
+ "imageheight":128,
+ "imagewidth":224,
+ "margin":0,
+ "name":"blue trees",
+ "spacing":0,
+ "tilecount":28,
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset"
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dragon Quest</title>
+        <meta charset="UTF-8">
+        <link href="site.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="page-wrap">
+            <img src="images/title.png" alt="DragonQuest"/>
+            <form action="main.html">
+                Имя игрока:&nbsp;
+                <input type="text" id="playerName" class="input"/><br><br>
+                <button class="button" type="submit" onclick="savePlayerName();">Играть</button>
+            </form>
+        </div>
+        <script src="scripts/utils.js"></script>
+        <script>
+            document.getElementById("playerName").value = getCookie("player");
+        </script>
+    </body>
+</html>

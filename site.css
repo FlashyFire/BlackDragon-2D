@@ -1,0 +1,127 @@
+﻿body
+{
+    font-size: 1em;
+    font-family: Cambria, "Times New Roman", serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    background-image: url("images/dragon_pattern.jpg");
+}
+
+.gamefield { 
+    position: absolute;
+    width: 640px;
+    height: 640px;
+    left: 50%;
+    top: 50%;
+    margin-left: -320px;
+    margin-top: -320px;
+}
+
+.page-wrap {
+    position: absolute;
+    width: 800px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    margin-top: -150px;
+    text-align: center;
+}
+
+.page-wrap2 {
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    margin-left: -400px;
+    text-align: center;
+}
+
+a:link
+{
+    color: #254af3;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #295abc;
+}
+a:hover
+{
+    color: #3060ff;
+}
+a:active
+{
+    color: #6699ff;
+}
+
+p, ul
+{
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Cambria, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+h1
+{
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+h2 { padding: 0 0 10px 0; }
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.1em; }
+h5, h6 { font-size: 1em; }
+
+.button, .combo {
+    border: none;
+    color: white;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 16px;
+}
+.button { background-color: #dd0000; }
+.button:hover { background: #ff0000; }
+.right {
+    float:right;
+}
+.left {
+    float:left;
+}
+.input {
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #666;
+    border-radius: 1px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0);
+}
+.row {
+    position: relative;
+    margin: auto;
+    max-width: 600px; 
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.tright { text-align: right; }
+.tcenter { text-align: center; }
+

@@ -1,0 +1,12 @@
+{ "columns":7,
+ "image":"images\/all.png",
+ "imageheight":256,
+ "imagewidth":224,
+ "margin":0,
+ "name":"all",
+ "spacing":0,
+ "tilecount":56,
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset"
+}

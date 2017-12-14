@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dragon Quest</title>
+    <meta charset="UTF-8">
+    <link href="site.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="gamefield">
+<canvas id="canvasId" width="640" height="640" style="border: 1px dotted #fff;"></canvas>
+</div>
+<script src="scripts/spriteManager.js"></script>
+<script src="scripts/mapManager.js"></script>
+<script src="scripts/objectManager.js"></script>
+<script src="scripts/eventsManager.js"></script>
+<script src="scripts/soundManager.js"></script>
+<script src="scripts/physicManager.js"></script>
+<script src="scripts/gameManager.js"></script>
+<script src="scripts/utils.js"></script>
+<script>
+    var canvas = document.getElementById("canvasId");
+    var ctx = canvas.getContext("2d");
+    gameManager.playerName = getCookie("player");
+    gameManager.loadAll();
+    gameManager.play();
+</script>
+</body>
+</html>
